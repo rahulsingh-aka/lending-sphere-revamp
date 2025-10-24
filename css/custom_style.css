@@ -819,6 +819,9 @@ img {
     box-shadow        : 0 8px 24px 0 rgba(23, 50, 101, .3);
     background-color  : var(--background-color);
 }
+.scrolled .menu-main li a{
+color: var(--text-color)!important;
+}
 
 .btn_enq {
     border-radius   : 60px;
@@ -4017,6 +4020,7 @@ p.bread_crumb {
     line-height: 40px;
     list-style-type: disc;
 }
+
 .long-card-block .lg_card:hover ul li{
     color: #fff;
 }
